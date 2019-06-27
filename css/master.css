@@ -1,0 +1,36 @@
+body{
+  background-color: grey;
+}
+header{
+  background-color: none;
+  height: 70px;
+}
+/* aligns the Full nave bar */
+header nav ul{
+  text-align: center;
+  padding-top: 25px;
+  border-radius: 15px;
+}
+/* individual nav elements */
+nav li a{
+  color:black;
+  text-decoration: none;
+  margin:10;
+  background-color: white;
+  padding: 3px 10px;
+  border-radius: 15px;
+  color: black;
+}
+/*nav bar spacing*/
+nav li {
+  width: fit-content;
+  padding:0px 0px 0px 40px;
+  display: inline;
+}
+h1{
+  color: white;
+}
+.pressed{
+  background-color: darkslategrey;
+  color:white;
+}
